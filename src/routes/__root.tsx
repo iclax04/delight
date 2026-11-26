@@ -37,6 +37,7 @@ export const Route = createRootRoute({
     <html lang="en" className="antialiased" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="QudxyTLvNePlOWODcZOjIQ" async />
       </head>
       <body>
         <PreviewHostBridge />
