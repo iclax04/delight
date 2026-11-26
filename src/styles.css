@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0b1f3a;
+  --color-ink: #122033;
+  --color-muted: #5c6d82;
+  --color-paper: #f4f7fb;
+  --color-card: #ffffff;
+  --color-line: #e3eaf2;
+  --color-electric: #2f6bff;
+  --color-electric-deep: #1e4ed8;
+  --color-on-electric: #ffffff;
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-display: Outfit, ui-sans-serif, system-ui, sans-serif;
+  --shadow-card: 0px 0px 0px 1px rgba(11, 31, 58, 0.06), 0px 1px 2px -1px rgba(11, 31, 58, 0.06),
+    0px 16px 32px -20px rgba(11, 31, 58, 0.4);
+  --shadow-card-hover: 0px 0px 0px 1px rgba(11, 31, 58, 0.1), 0px 16px 32px -16px rgba(11, 31, 58, 0.28);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  summary {
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  ::selection {
+    background: #d5e2ff;
+    color: #0b1f3a;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility rise {
+  animation: rise 560ms ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

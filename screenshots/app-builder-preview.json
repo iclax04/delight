@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Gadgets in Anambra State | Delight Gadgets",
+      "hasCanvas": false,
+      "bodyTextLen": 3061,
+      "bodyTextHash": "3043026a6a2df10c4c9669ee673577a6a0d4bffee579db9fc76320df8df2a1d0",
+      "bodyTextPrefix": "Skip to content Anambra State · Smartphones, laptops and accesso",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Gadgets in Anambra State | Delight Gadgets",
+      "hasCanvas": false,
+      "bodyTextLen": 3004,
+      "bodyTextHash": "7dccc138396008658284522bf3a1568a4bcf6ea8ecc91daa04f380e3aa5f62ee",
+      "bodyTextPrefix": "Skip to content Anambra State · Smartphones, laptops and accesso",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
